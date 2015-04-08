@@ -1,11 +1,11 @@
 <span id="_Ref370128360" class="anchor"><span id="_Toc380472937" class="anchor"></span></span>Cookbook 
 =======================================================================================================
 
-In this third part of the manual (the “Cookbook”), you will find different hands-on instructions for implementing certain features as well as several IB example projects illustrating specific options and settings. Single instructions focus on how to build a specific feature or to implement a specific functionality, and should help you to get an easy start with the IB. Note that the main focus is on implementation. For information on basic principles or functioning of elements see the User’s Guide part before (see Part II: User Guide).
+In this third part of the manual (the ?Cookbook?), you will find different hands-on instructions for implementing certain features as well as several IB example projects illustrating specific options and settings. Single instructions focus on how to build a specific feature or to implement a specific functionality, and should help you to get an easy start with the IB. Note that the main focus is on implementation. For information on basic principles or functioning of elements see the User?s Guide part before (see Part II: User Guide).
 
 This part is organized as follows: You will find some recipes dealing with different features of specific page types as well as with the navigation between pages in the fist section III.1. The second section will focus on specific response elements and on examples of how to use them to let test takers solve certain tasks (see III.2). The third section will be about the usage of different FSM-related features (see III.3) and the fourth section will deal with multimedia elements (see **Fehler! Verweisquelle konnte nicht gefunden werden.**).
 
-Note that there are usually multiple ways to implement a specific functionality and that the recipes in this “Cookbook” will present mainly just one possible way to achieve a specific task with a list of steps. Moreover, this collection of ‘How-to’s’ is by no means complete. However, we continuously add additional recepies to make this manual more and more helpful.
+Note that there are usually multiple ways to implement a specific functionality and that the recipes in this ?Cookbook? will present mainly just one possible way to achieve a specific task with a list of steps. Moreover, this collection of ?How-to?s? is by no means complete. However, we continuously add additional recepies to make this manual more and more helpful.
 
 <span id="_Toc377809374" class="anchor"><span id="_Ref367886252" class="anchor"><span id="_Toc380472938" class="anchor"></span></span></span>Project Structure
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,17 +31,17 @@ Note that there are usually multiple ways to implement a specific functionality 
 
 **Instructions: **
 
-• Start with a simple page prepared with a frame and a panel (see III.1.1.1).
+? Start with a simple page prepared with a frame and a panel (see III.1.1.1).
 
-• Add a HTML text field to the page and adjust the size to fit the panel by selecting HTMLTextField from the Palette and draw a rectangle within the panel.
+? Add a HTML text field to the page and adjust the size to fit the panel by selecting HTMLTextField from the Palette and draw a rectangle within the panel.
 
 > *Alternatively, you can also use TextField or SingleLineTextField from the palette to create a regular text field and a simple text field, respectively. The following steps are the same. See section II.3.4.1 to get more information about different text fields.*
 
-• A text input field appears immediately in the drawn rectangle. You can use it to directly write your text in the text field. But as long as it is active, you cannot edit your text. Click anywhere outside the HTML text field (e.g., on the panel) to deselect it. Now, you can double-click the HTML text field to open the “HTML Text Editor”.
+? A text input field appears immediately in the drawn rectangle. You can use it to directly write your text in the text field. But as long as it is active, you cannot edit your text. Click anywhere outside the HTML text field (e.g., on the panel) to deselect it. Now, you can double-click the HTML text field to open the ?HTML Text Editor?.
 
-• Insert your welcome-text for the instruction page.
+? Insert your welcome-text for the instruction page.
 
-• Close the “HTML Text Editor” by “Save and Close” button.
+? Close the ?HTML Text Editor? by ?Save and Close? button.
 
 | WelcomePageExample.zip| Edit View and Preview                                        |
 |--------------------------------------------------------------------------------------|
@@ -50,14 +50,14 @@ Note that there are usually multiple ways to implement a specific functionality 
 
 #### Guiding Test takers by Buttons
 
-| **Task:** Create a button to give test takers the possibility to “navigate” through the item.                                                                                             |
+| **Task:** Create a button to give test takers the possibility to ?navigate? through the item.                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Instructions: **                                                                                                                                                                        |
 | Start with a simple page prepared with a frame and a panel (see III.1.1.1).                                                                                                               
                                                                                                                                                                                             
  Add a button to the page by selecting Button from the palette and draw a rectangle within the panel.                                                                                       
                                                                                                                                                                                             
- Now, you can use the button’s properties and its context menu to add design features (e.g., text, colors, and images) and other functions (e.g., linking to other pages, raising events).  |
+ Now, you can use the button?s properties and its context menu to add design features (e.g., text, colors, and images) and other functions (e.g., linking to other pages, raising events).  |
 
 | SimpleButton.zip| Edit View, Properties View and Preview                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -73,11 +73,11 @@ Note that there are usually multiple ways to implement a specific functionality 
 | **Instructions:**                                                                                                                    |
 | Start with a simple page prepared with a frame and a panel (see III.1.1.1).                                                          
  >                                                                                                                                     
- > Open the resource browser by clicking either “Browse resources” from the menu or the icon. Upload all the images your want to use.  
+ > Open the resource browser by clicking either ?Browse resources? from the menu or the icon. Upload all the images your want to use.  
  >                                                                                                                                     
  > Add an image field to the page by selecting ImageField from the palette and draw a rectangle within the panel.                      
  >                                                                                                                                     
- > Right-click the image field and select “Link Image” from its context menu.                                                          
+ > Right-click the image field and select ?Link Image? from its context menu.                                                          
  >                                                                                                                                     
  > A new dialog appears and lists all resources uploaded in the resource browser.                                                      
  >                                                                                                                                     
@@ -146,15 +146,15 @@ In case of listing elements, such as combo boxes and menus, the Component View (
 |                                                                               |
 |                                                                               |
 
-|     | Create two simple pages (“page”, “target”) at least prepared with frame and panel (see III.1.1.1).               
+|     | Create two simple pages (?page?, ?target?) at least prepared with frame and panel (see III.1.1.1).               
                                                                                                                          
-       Open the first page “page” and add a regular text field.                                                          
+       Open the first page ?page? and add a regular text field.                                                          
                                                                                                                          
        Open the Rich Text Editor by double clicking and type in some text.                                               
                                                                                                                          
        Select the text or single text passages with the mouse in the Rich Text Editor.                                   
                                                                                                                          
-       Click to the button ![](images/media/image261.png) and choose “target”-page from the page-list. Confirm with OK.  
+       Click to the button ![](images/media/image261.png) and choose ?target?-page from the page-list. Confirm with OK.  
                                                                                                                          
        **IB** **Examples:** PageSelectionexample.zip | TextFieldNavigation.zip                                           |
 |-----|------------------------------------------------------------------------------------------------------------------|
@@ -206,40 +206,40 @@ The implementation of the illustrated features is described in the following sec
 | **Task:** Create an item level feedback page by implementing a conditional link (see Figure 134).                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Instructions:**                                                                                                                                                             |
-| Create three simple pages (“Page”, “True”, “False”) at least prepared with Frame and Panel (see III.1.1.1).                                                                   
+| Create three simple pages (?Page?, ?True?, ?False?) at least prepared with Frame and Panel (see III.1.1.1).                                                                   
                                                                                                                                                                                 
- Add a RadioButtonGroup with radio button “A1” and radio button “A2” (user-define ID’s must be defined!). Note that the use of other click response elements is also possible.  
+ Add a RadioButtonGroup with radio button ?A1? and radio button ?A2? (user-define ID?s must be defined!). Note that the use of other click response elements is also possible.  
                                                                                                                                                                                 
- Add a button “Go” with an user-defined ID and right-click on it to open its context menu. Select on *Link Page*.                                                               
+ Add a button ?Go? with an user-defined ID and right-click on it to open its context menu. Select on *Link Page*.                                                               
                                                                                                                                                                                 
- First, select the page “False” as default page in window “Select page”.                                                                                                        
+ First, select the page ?False? as default page in window ?Select page?.                                                                                                        
                                                                                                                                                                                 
- Second, click on “Edit Condition” and type in the condition (“A1”) that leads to the “True” page, e.g.,                                                                        
+ Second, click on ?Edit Condition? and type in the condition (?A1?) that leads to the ?True? page, e.g.,                                                                        
                                                                                                                                                                                 
  **IB** **Examples:** ItemLevelFeedbackPageConditionalLink.zip                                                                                                                  |
 
-#### Link to Pages While Changing an Item’s State
+#### Link to Pages While Changing an Item?s State
 
 | **Task:** Create an item level feedback page by assigning pages to different states (see Figure 135).                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Instructions:**                                                                                                                                                                                                                                                            |
-| Create two simple pages (“First”, “Second”) at least prepared with Frame and Panel (see III.1.1.1).                                                                                                                                                                          
+| Create two simple pages (?First?, ?Second?) at least prepared with Frame and Panel (see III.1.1.1).                                                                                                                                                                          
                                                                                                                                                                                                                                                                                
  Add a click response element, e.g., a button.                                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                                
  Open the FSM Editor by clicking on *Project* on the menu entry or menu bar icon, choose *Edit State Machine* and go to the *State Machine Rules*.                                                                                                                             
                                                                                                                                                                                                                                                                                
- Add one click-**event** for each page change (“EV\_GoToFirst”, “EV\_GoToSecond”) in the syntax’ event part (see II.5.2).                                                                                                                                                      
+ Add one click-**event** for each page change (?EV\_GoToFirst?, ?EV\_GoToSecond?) in the syntax? event part (see II.5.2).                                                                                                                                                      
                                                                                                                                                                                                                                                                                
- Open the button’s context menu by right-clicking each button. Select “Link Select Event” and connect each button to a corresponding event (button of “First” page with “EV\_GoToSecond” and button of “Second” page with “EV\_GoToFirst”, respectively).                      
+ Open the button?s context menu by right-clicking each button. Select ?Link Select Event? and connect each button to a corresponding event (button of ?First? page with ?EV\_GoToSecond? and button of ?Second? page with ?EV\_GoToFirst?, respectively).                      
                                                                                                                                                                                                                                                                                
- Go to the *State Machine* editor and add three **states**: one start-state (“Start”) and two normal-states (“ST\_First”, “ST\_Second”) (see II.5.3).                                                                                                                          
+ Go to the *State Machine* editor and add three **states**: one start-state (?Start?) and two normal-states (?ST\_First?, ?ST\_Second?) (see II.5.3).                                                                                                                          
                                                                                                                                                                                                                                                                                
- Connect the normal states to the corresponding pages (i.e., “ST\_First” to “First”, “ST\_Second” to “Second”) by right-clicking the states. Select “Configure State” from their context menu and type in the name of the page to be connected in the section “Page to open”.  
+ Connect the normal states to the corresponding pages (i.e., ?ST\_First? to ?First?, ?ST\_Second? to ?Second?) by right-clicking the states. Select ?Configure State? from their context menu and type in the name of the page to be connected in the section ?Page to open?.  
                                                                                                                                                                                                                                                                                
  Go to the *State Machine Rules* and add rules for initiating the FSM ( **Start -\> ST\_First{true}** ) and changing between the normal states ( **ST\_First =\> ST\_Second{EV\_GoToSecond}** as well as **ST\_Second =\> ST\_First{EV\_GoToFirst}** ).                        
                                                                                                                                                                                                                                                                                
- Your FSM works after you saved the file by “Generate and Save”.                                                                                                                                                                                                               
+ Your FSM works after you saved the file by ?Generate and Save?.                                                                                                                                                                                                               
                                                                                                                                                                                                                                                                                
  **IB** **Examples:** NavigateWithStates.zip | NavigateWithStatesInRegions.zip                                                                                                                                                                                                 |
 
@@ -248,33 +248,33 @@ The implementation of the illustrated features is described in the following sec
 | **Task:** Change current page when the time is over (see Figure 136).                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Instructions:**                                                                                                                                                                                                                                                                  |
-| Create two simple pages (“PageRunning”, “PageOut”) at least prepared with frame and panel (see III.1.1.1).                                                                                                                                                                         
+| Create two simple pages (?PageRunning?, ?PageOut?) at least prepared with frame and panel (see III.1.1.1).                                                                                                                                                                         
                                                                                                                                                                                                                                                                                      
  Add a NumberValueDisplay from the Palette to the Panel.                                                                                                                                                                                                                             
                                                                                                                                                                                                                                                                                      
  Open the FSM Editor by clicking on *Edit State Machine*.                                                                                                                                                                                                                            
                                                                                                                                                                                                                                                                                      
- Add three **states**: one start-state (“Start”) and two normal-states (“TimerRuns”, “TimeOut”) (see II.5.3).                                                                                                                                                                        
+ Add three **states**: one start-state (?Start?) and two normal-states (?TimerRuns?, ?TimeOut?) (see II.5.3).                                                                                                                                                                        
                                                                                                                                                                                                                                                                                      
- > Connect the normal states to the corresponding pages (i.e., “TimerRuns” to “PageRunning”, “Timeout” to “PageOut”) by right-clicking the states. Select “Configure State” from their context menu and type in the name of the page to be connected in the section “Page to open”.  
+ > Connect the normal states to the corresponding pages (i.e., ?TimerRuns? to ?PageRunning?, ?Timeout? to ?PageOut?) by right-clicking the states. Select ?Configure State? from their context menu and type in the name of the page to be connected in the section ?Page to open?.  
                                                                                                                                                                                                                                                                                      
- Add one **variable** (“SecondsLeft”) (see II.5.1).                                                                                                                                                                                                                                  
+ Add one **variable** (?SecondsLeft?) (see II.5.1).                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                                      
  Go to the *State Machine Rules*.                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                      
- Add one time-**event** (“TimerTick 1”) in the syntax’ event part (see II.5.2).                                                                                                                                                                                                      
+ Add one time-**event** (?TimerTick 1?) in the syntax? event part (see II.5.2).                                                                                                                                                                                                      
                                                                                                                                                                                                                                                                                      
  Add the **rules** between States, Variables and Events (see II.5.4).                                                                                                                                                                                                                
                                                                                                                                                                                                                                                                                      
- > Start with the transition from the start-state “Start” to the first normal-state “TimerRuns”. When the times starts (i.e., the condition is true), the variable “SecondsLeft” should be set to the initial time.                                                                  
+ > Start with the transition from the start-state ?Start? to the first normal-state ?TimerRuns?. When the times starts (i.e., the condition is true), the variable ?SecondsLeft? should be set to the initial time.                                                                  
  >                                                                                                                                                                                                                                                                                   
- > Every time the time-event “TickTimer” occurs (i.e., every second left) and the variable “SecondsLeft” is greater than 1, the state “TimerRuns” should convert to itself. In doing so, the variable “SecondsLeft” should be reduced by 1.                                          
+ > Every time the time-event ?TickTimer? occurs (i.e., every second left) and the variable ?SecondsLeft? is greater than 1, the state ?TimerRuns? should convert to itself. In doing so, the variable ?SecondsLeft? should be reduced by 1.                                          
  >                                                                                                                                                                                                                                                                                   
- > When the time-event “TickTimer” occurs, but the variable “SecondsLeft” is 1 or less, the state “TimerRuns” should convert to the second state “TimeOut” which automatically leads the test taker to the page “PageOut”.                                                           
+ > When the time-event ?TickTimer? occurs, but the variable ?SecondsLeft? is 1 or less, the state ?TimerRuns? should convert to the second state ?TimeOut? which automatically leads the test taker to the page ?PageOut?.                                                           
                                                                                                                                                                                                                                                                                      
- Right-click on the NumberValueDisplay in the panel and select “Link Variable” from its context menu. Select the variable “SecondsLeft” and confirm with OK.                                                                                                                         
+ Right-click on the NumberValueDisplay in the panel and select ?Link Variable? from its context menu. Select the variable ?SecondsLeft? and confirm with OK.                                                                                                                         
                                                                                                                                                                                                                                                                                      
- Your FSM works after you saved by “Generate and Save”.                                                                                                                                                                                                                              
+ Your FSM works after you saved by ?Generate and Save?.                                                                                                                                                                                                                              
                                                                                                                                                                                                                                                                                      
  **IB** **Examples:** SimpleTimerExample.zip                                                                                                                                                                                                                                         |
 
@@ -289,7 +289,7 @@ The implementation of the illustrated features is described in the following sec
 | *Design a X-Page*                                                                 |
 | *Connecting a X-Page*                                                             |
 
-> **Important Note 1**: The size of the X-Page frame is added to other pages’ frame size. Example: A 60x60px X-Page and a 60x60px SimplePage result in a total size of 120x60px in horizontal setting.
+> **Important Note 1**: The size of the X-Page frame is added to other pages? frame size. Example: A 60x60px X-Page and a 60x60px SimplePage result in a total size of 120x60px in horizontal setting.
 >
 > **Important Note 2**: Navigation elements in X-Pages will only link to other X-Pages.
 >
@@ -300,13 +300,13 @@ The implementation of the illustrated features is described in the following sec
 | **Task:** Navigate between pages while a general instruction remains constantly.                                  |
 |-------------------------------------------------------------------------------------------------------------------|
 | **Instructions:**                                                                                                 |
-| Create two simple pages (“First”, “Second”) and one X-Page prepared with frame and panel (see III.1.1.1).         
+| Create two simple pages (?First?, ?Second?) and one X-Page prepared with frame and panel (see III.1.1.1).         
                                                                                                                     
  Create a button on each simple page and link them among themselves.                                                
                                                                                                                     
- Open the Task Editor and create a new task (see II.4.1). Select “First” as Start Page and X-Page as Start X-Page.  
+ Open the Task Editor and create a new task (see II.4.1). Select ?First? as Start Page and X-Page as Start X-Page.  
                                                                                                                     
- The X-Page works after you saved your file by “Generate and Save”.                                                 |
+ The X-Page works after you saved your file by ?Generate and Save?.                                                 |
 
 **IB Examples:**
 
@@ -320,13 +320,13 @@ The implementation of the illustrated features is described in the following sec
 | **Task:** Navigate between different instruction parts.                                                                 |
 |-------------------------------------------------------------------------------------------------------------------------|
 | **Instructions:**                                                                                                       |
-| Create one simple page and two X-Pages (“X1”, “X2) prepared with frame and panel (see III.1.1.1).                       
+| Create one simple page and two X-Pages (?X1?, ?X2) prepared with frame and panel (see III.1.1.1).                       
                                                                                                                           
  Create a button on each X-Page and link them.                                                                            
                                                                                                                           
- Open the Task Editor and create a new task (see II.4.1). Select the simple page as Start Page and “X1” as Start X-Page.  
+ Open the Task Editor and create a new task (see II.4.1). Select the simple page as Start Page and ?X1? as Start X-Page.  
                                                                                                                           
- The X-Pages work after you saved by “Generate and Save”.                                                                 |
+ The X-Pages work after you saved by ?Generate and Save?.                                                                 |
 
 **IB Examples:**
 
@@ -337,7 +337,7 @@ The implementation of the illustrated features is described in the following sec
 
 #### Gallery: Different X-Pages and Underlying Layout Settings
 
-You can add some more features to your X-Pages, e.g., the alignment of the X-Page or adding a slider. The following gallery part introduces several X-Page settings and shortly describes their functions. Call up the X-Page settings for a specific IB Task from the Task Browser clicking the button “Layout settings”. The setting dialog opens:
+You can add some more features to your X-Pages, e.g., the alignment of the X-Page or adding a slider. The following gallery part introduces several X-Page settings and shortly describes their functions. Call up the X-Page settings for a specific IB Task from the Task Browser clicking the button ?Layout settings?. The setting dialog opens:
 
 | XPageExample.zip| Task Browser                                                                             |
 |------------------------------------------------------------------------------------------------------------|
@@ -354,7 +354,7 @@ In Table 34 you find an overview explaining layout setting properties of X-Pages
 |                         | Defines the minimum display width of the x-Page (probably depending on the size of the x-page display of scroll bars). |
 | Slider width            | Defined distance between x width of a slider-page and other pages.                                                     |
 |                         | Colour of Slider (if selected).                                                                                        |
-| CheckBox „Allow resize“ | Checkmark allows scrollbars if (defined otherwise by the slider) the pages are scaled.                                 |
+| CheckBox ?Allow resize? | Checkmark allows scrollbars if (defined otherwise by the slider) the pages are scaled.                                 |
 
 **
 **
@@ -384,11 +384,11 @@ Every button listed in the palette window provides a special functionality at ru
 
 **Home button:** The page linked to the button at design time will be displayed at runtime when the user clicks the button.
 
-**Bookmark button:** The current page can be bookmarked at runtime. Clicking on the button will offer the feature ‘Add bookmark’ and ‘Manage bookmark …’. Select ‘Add bookmark’ to add the current pages URL to the list of bookmarks. The selection of ‘Manage bookmarks…’ will produce a dialog which lists the bookmarks already added and offers the possibility to delete one or more entries.
+**Bookmark button:** The current page can be bookmarked at runtime. Clicking on the button will offer the feature ?Add bookmark? and ?Manage bookmark ??. Select ?Add bookmark? to add the current pages URL to the list of bookmarks. The selection of ?Manage bookmarks?? will produce a dialog which lists the bookmarks already added and offers the possibility to delete one or more entries.
 
 **URL Input field:** This is not really a input field, you cannot enter a URL here to load the entered page. The URL string of the current web child (if specified) will be displayed here
 
-A context menu is presented when the option “Show browser context menu” is selected.
+A context menu is presented when the option ?Show browser context menu? is selected.
 
 Note that the following texts are defined in the general project settings (see section II.2.2.8)
 
@@ -423,7 +423,7 @@ Context Menu Home
 
 #### Gallery: Global Icons Settings
 
-To open the global settings dialog right click on the project name in the project view and select the entry “Global Icons” from the context menu.
+To open the global settings dialog right click on the project name in the project view and select the entry ?Global Icons? from the context menu.
 
 | BrowserGlobalIconExample.zip|Edit View, Preview and Settings                                     |
 |--------------------------------------------------------------------------------------------------|
@@ -441,7 +441,7 @@ To open the global settings dialog right click on the project name in the projec
 
 -   Create a Project.
 
--   Add a new tabfolder page and type in “tabfolder” as tabfolder page name.
+-   Add a new tabfolder page and type in ?tabfolder? as tabfolder page name.
 
 -   Create three simple pages: simple1, simple2 and simple3.
 
@@ -550,13 +550,13 @@ The Taskbar StartButton is a special kind of TaskbarButton with a particular beh
 
 Although dialogs are specified as frames on simple pages, the following four properties are specific for frames used as dialogs:
 
-1.  *Modal*: Dialogs are shown as modal dialogs if the property “Modal” is specified as true.
+1.  *Modal*: Dialogs are shown as modal dialogs if the property ?Modal? is specified as true.
 
-2.  *Transparency*: Dialogs and modal dialogs are rendered (semi-)transparent, when a number different from 0 (= non transparent) and smaller than or equal 100 (= invisible) is specified in the frames property “Transperency” (see **Fehler! Verweisquelle konnte nicht gefunden werden.** for an example of a dialog with 50.0 % transparency).
+2.  *Transparency*: Dialogs and modal dialogs are rendered (semi-)transparent, when a number different from 0 (= non transparent) and smaller than or equal 100 (= invisible) is specified in the frames property ?Transperency? (see **Fehler! Verweisquelle konnte nicht gefunden werden.** for an example of a dialog with 50.0 % transparency).
 
-3.  *Text:* The “Text” property of the frame defining a dialog or a modal dialog is displayed as title text.
+3.  *Text:* The ?Text? property of the frame defining a dialog or a modal dialog is displayed as title text.
 
-4.  *Closable*: If the property “Closable” is set to “true”, dialogs can be closed with the small “X” in the upper right corner of the dialog window (i.e., an optional close icon on the top right corner).
+4.  *Closable*: If the property ?Closable? is set to ?true?, dialogs can be closed with the small ?X? in the upper right corner of the dialog window (i.e., an optional close icon on the top right corner).
 
 Select the frame defining the dialog and edit the properties to change the described characteristics of dialogs in the Property View (see, e.g., Figure 149).
 
@@ -668,11 +668,11 @@ Note that SimpleTextFields can also serve as text input fields (see III.2.3), te
 
 The InputField is similar to the text box. You can create a box and enter text if needed. In case the typed in text does not fit in the input field a vertical scrollbar will appear automatically in most browsers. Note that in Firefox an input field must have a minimum of 36 px in height for the vertical scrollbar to appear.
 
-The SingleLineInputField works exactly the same way except for not having a box but a line where you can enter a text. The attribute of the SingleLineInputField can be set to read only. This function is useful when creating a web browser and you don not want the browsers address bar to be editable. To do so open the SingleLineInputField’s properties view and set the value of the property “read only” to “true”.
+The SingleLineInputField works exactly the same way except for not having a box but a line where you can enter a text. The attribute of the SingleLineInputField can be set to read only. This function is useful when creating a web browser and you don not want the browsers address bar to be editable. To do so open the SingleLineInputField?s properties view and set the value of the property ?read only? to ?true?.
 
 #### Context Menus for Text and Input Fields
 
-A context menu is shown when the option “Show edit context menu” is enabled. Note that the following texts are defined in the general project settings (see section II.2.2.8)
+A context menu is shown when the option ?Show edit context menu? is enabled. Note that the following texts are defined in the general project settings (see section II.2.2.8)
 
 Context Menu Cut
 
@@ -682,9 +682,9 @@ Context Menu Paste
 
 ### <span id="_Ref372283977" class="anchor"><span id="_Toc380472950" class="anchor"></span></span>Combo Box and Lists 
 
-A combo box is a mix of a drop-down menu and a textbox which enables the user to choose from a list of several items (e.g., commands/links to other pages or images). Adding a ComboBox to a page is very similar as adding a Menubar with Menus. To create a ComboBox select the ComboBox-Object from the palette and drag and draw a ComboBox on the panel. A name can be set directly after by typing it in the appearing TextField or afterwards by using the Properties View. Thereafter open the Component Subtree Tab and click on the panel, so the ComboBox appears in the Component Subtree Tab. To add (a) ComboBoxItem(s) right-click the ComboBox and select “Add Combo Box Item” from the popup box. A dialog box will show up in which a name for the ComboBoxItem has to be entered. This operation can be repeated for all MenuItems which should be added to a Menu.
+A combo box is a mix of a drop-down menu and a textbox which enables the user to choose from a list of several items (e.g., commands/links to other pages or images). Adding a ComboBox to a page is very similar as adding a Menubar with Menus. To create a ComboBox select the ComboBox-Object from the palette and drag and draw a ComboBox on the panel. A name can be set directly after by typing it in the appearing TextField or afterwards by using the Properties View. Thereafter open the Component Subtree Tab and click on the panel, so the ComboBox appears in the Component Subtree Tab. To add (a) ComboBoxItem(s) right-click the ComboBox and select ?Add Combo Box Item? from the popup box. A dialog box will show up in which a name for the ComboBoxItem has to be entered. This operation can be repeated for all MenuItems which should be added to a Menu.
 
-To link the ComboBoxItems to Images or other Pages, right-click the concerning ComboBoxItem in the Component Tree Tab and select “Link Image” or ”Link Page” from the popup box.
+To link the ComboBoxItems to Images or other Pages, right-click the concerning ComboBoxItem in the Component Tree Tab and select ?Link Image? or ?Link Page? from the popup box.
 
 The grafic shows the Component Subtree Tab with a list of all available objects (ComboBox and ComboBoxItems):
 
@@ -853,15 +853,15 @@ The grafic shows the Component Subtree Tab with a list of all available objects 
 
 -   Add the Text, User Defined Id and Mouse Over Text
 
-A Menu includes a list of one or more MenuItems (e.g., commands/links to other pages or images) which can be selected by the user. Before one or several menus with its MenuItems can be added to a page, a MenuBar has to be created first, in which the menu(s) will be placed afterwards. This is done by selecting the menubar-object and placing a MenuBar in an existing panel by drag and drop. Afterwards (a) Menu(s) can be placed inside the MenuBar also by drag and drop. Therefore the menu-object has to be selected from the palette. A name can be assigned to the menu directly by typing it in the appearing TextField. This can also be done later on in the Properties View by editing the value for the property “Text” under the Core rider.
+A Menu includes a list of one or more MenuItems (e.g., commands/links to other pages or images) which can be selected by the user. Before one or several menus with its MenuItems can be added to a page, a MenuBar has to be created first, in which the menu(s) will be placed afterwards. This is done by selecting the menubar-object and placing a MenuBar in an existing panel by drag and drop. Afterwards (a) Menu(s) can be placed inside the MenuBar also by drag and drop. Therefore the menu-object has to be selected from the palette. A name can be assigned to the menu directly by typing it in the appearing TextField. This can also be done later on in the Properties View by editing the value for the property ?Text? under the Core rider.
 
 The image shows a MenuBar with two Menus:
 
 ![](images/media/image333.png)
 
-To add (a) MenuItem(s) to the menu(s) you first have to change from the Project View to the Component Subtree Tab by clicking on it. This can be found left to the Project View Tab. Thereafter left-click the Panel and the Menubar will appear under the Component Subtree Tab. To add (a) MenuItem(s) open the Subtree by clicking on the “+” symbol left to the name of the MenuBar. A list with all related menus will appear. Right-click on the relevant menu and select “Add Menu Item” from the appearing pop up menu. A dialog box will show up in which a name for the MenuItem has to be entered. This operation can be repeated for all MenuItems which should be added to a Menu.
+To add (a) MenuItem(s) to the menu(s) you first have to change from the Project View to the Component Subtree Tab by clicking on it. This can be found left to the Project View Tab. Thereafter left-click the Panel and the Menubar will appear under the Component Subtree Tab. To add (a) MenuItem(s) open the Subtree by clicking on the ?+? symbol left to the name of the MenuBar. A list with all related menus will appear. Right-click on the relevant menu and select ?Add Menu Item? from the appearing pop up menu. A dialog box will show up in which a name for the MenuItem has to be entered. This operation can be repeated for all MenuItems which should be added to a Menu.
 
-MenuItems can be linked to images or pages by selecting a relevant MenuItem from the subtree. From the popup box which appears after right-clicking the MenuItem “Link Image” or “Link Page” can be selected. A MenuItem can be deleted by clicking on “Delete Menu Item” which can also be found in the same pop up box.
+MenuItems can be linked to images or pages by selecting a relevant MenuItem from the subtree. From the popup box which appears after right-clicking the MenuItem ?Link Image? or ?Link Page? can be selected. A MenuItem can be deleted by clicking on ?Delete Menu Item? which can also be found in the same pop up box.
 
 The image shows the Component Subtree Tab with a list of all available objects (MenuBar and Menus with MenuItems):
 
@@ -869,13 +869,13 @@ The image shows the Component Subtree Tab with a list of all available objects (
 
 ### <span id="_Ref372709364" class="anchor"><span id="_Toc380472952" class="anchor"></span></span>Image Map
 
-The ImageMap element is a type of container for ImageFields and the ImageTextFields. It allows merging an image and text fields into a single image. Use it if you want to insert a picture. In contrast to the Image Field it is possible to change the size of a picture. Here it is also possible to add other elements, for example, an Image Text Field. First, open a panel, then click right, choose “link image”. Inside the image map several parts can be made clickable: first click on the Image Area, then place it on the panel, then place an “Anchor Point” inside the image area. Points will be visible that are draggable, if you click on the line and drag it, new points will appear: if you click in the image area you can choose the background color, for example.
+The ImageMap element is a type of container for ImageFields and the ImageTextFields. It allows merging an image and text fields into a single image. Use it if you want to insert a picture. In contrast to the Image Field it is possible to change the size of a picture. Here it is also possible to add other elements, for example, an Image Text Field. First, open a panel, then click right, choose ?link image?. Inside the image map several parts can be made clickable: first click on the Image Area, then place it on the panel, then place an ?Anchor Point? inside the image area. Points will be visible that are draggable, if you click on the line and drag it, new points will appear: if you click in the image area you can choose the background color, for example.
 
-To create an ImageArea within an image map select the „AnchorPoint”-Tool and click into the area of the image map where you want to place the ImageArea:
+To create an ImageArea within an image map select the ?AnchorPoint?-Tool and click into the area of the image map where you want to place the ImageArea:
 
 ![](images/media/image335.jpeg)
 
-You will see an AnchorPoint in form of a “little square”. First, deselect the square by clicking somewhere inside the panel.
+You will see an AnchorPoint in form of a ?little square?. First, deselect the square by clicking somewhere inside the panel.
 
 ![](images/media/image336.jpeg)
 
@@ -883,7 +883,7 @@ Afterwards point the mouse over the angle of the square on which you would like 
 
 ![](images/media/image337.jpeg)
 
-To get a more precise shape you can add additional corners to the ImageArea. Place the mouse pointer over the area of one of the ImageArea’s angles to which you want to add a corner. A little “+”-symbol will show up. Drag and drop to the direction, where you want to place the additional corner and drop the mouse.
+To get a more precise shape you can add additional corners to the ImageArea. Place the mouse pointer over the area of one of the ImageArea?s angles to which you want to add a corner. A little ?+?-symbol will show up. Drag and drop to the direction, where you want to place the additional corner and drop the mouse.
 
 Corners can be moved to a new position by drag and drop. Corners that you do not need anymore can be removed by aligning them with two other corner points.
 
@@ -893,7 +893,7 @@ If you want to move the whole ImageArea, just click the AnchorPoint and drag.
 
 If you want to change the colour of the ImageArea when clicked at runtime, you can adjust that within the appearance-tab of the properties-view of the AnchorPoint (not of the angles).
 
-The transparency can be modified by editing the value “transparency” in the core-rider of properties-View. Values from 0-100 are allowed.
+The transparency can be modified by editing the value ?transparency? in the core-rider of properties-View. Values from 0-100 are allowed.
 
 ![](images/media/image339.jpeg)
 
@@ -907,7 +907,7 @@ Double click on the ImageTextField to open the Rich Text Editor. Here you can en
 
 ![](images/media/image341.jpeg)
 
-You can define the rotation degree of the imagetexfield (values from -180° to 180°). As long as you have a horizontal or vertical ImageTextField (e.g.. -180°, -90°, 0°, 90°, 180°), you can change its size by click and drag of the rectangle. If it is rotated apart from that, you have to change its size by going into the properties and edit the values for “editheight” and/or “editwidth”. To put the changes into effect you will have to open the Rich Text Editor afterwards and click on “save changes”.
+You can define the rotation degree of the imagetexfield (values from -180? to 180?). As long as you have a horizontal or vertical ImageTextField (e.g.. -180?, -90?, 0?, 90?, 180?), you can change its size by click and drag of the rectangle. If it is rotated apart from that, you have to change its size by going into the properties and edit the values for ?editheight? and/or ?editwidth?. To put the changes into effect you will have to open the Rich Text Editor afterwards and click on ?save changes?.
 
 ![](images/media/image342.jpeg)
 
@@ -917,7 +917,7 @@ An ImageTextField behaves like a TextField, but does not support embedded links 
 
 You should check if the way you created the ImageMaps and ImageTextFields is contradictory at runtime.
 
-At runtime (and in the preview) the test person can select Image-Areas by clicking (the Image-Area is then highlighted according to the attributes you selected). The designer can use the attribute “selectable” (true”) if the TextField is supposed to be selectable at runtime. Those TextFields behave like ImageAreas when clicked.
+At runtime (and in the preview) the test person can select Image-Areas by clicking (the Image-Area is then highlighted according to the attributes you selected). The designer can use the attribute ?selectable? (true?) if the TextField is supposed to be selectable at runtime. Those TextFields behave like ImageAreas when clicked.
 
 This means that you have to make sure that a selectable ImageTextField and a selectable ImageArea do not overlap.
 
@@ -925,13 +925,13 @@ Multiple Select: You can select one or several ImageAreas/TextFields within one 
 
 Single Select: Only one selectable element within one ImageMap can be selected at once (at runtime).
 
-You can set the status to one of the two by going to the core-tab in the properties-menu of the ImageMap (right click when ONLY the image is selected in the designer view) and then set “Multiple-Select-Mode” to “true” or “false”.
+You can set the status to one of the two by going to the core-tab in the properties-menu of the ImageMap (right click when ONLY the image is selected in the designer view) and then set ?Multiple-Select-Mode? to ?true? or ?false?.
 
-The functionality „validity“helps you to find out whether there are overlaps. Right click outside of the Frame and you will find the command “validate” in the context-menu:
+The functionality ?validity?helps you to find out whether there are overlaps. Right click outside of the Frame and you will find the command ?validate? in the context-menu:
 
 ![](images/media/image343.jpeg)
 
-„Validity“ will show you all the overlaps and also gives and explanation.
+?Validity? will show you all the overlaps and also gives and explanation.
 
 ### <span id="_Ref369882161" class="anchor"><span id="_Toc380472953" class="anchor"></span></span>Highlighting
 
@@ -941,29 +941,29 @@ For the evaluation of highlighted text at runtime, it is needed to define so cal
 
 Several text blocks can be defined. They can overlap and may consist of fragments. Text blocks can be used to delimit correct answers in a text but also to delimit false answers.
 
-A text block can be defined by highlighting text in the Rich Text Editor, clicking the “New text block” button afterwards and setting a name in the appearing popup dialog. The extent of an existing text block can be changed by first selecting the regarding text block from the menu on the left, then highlighting the text area which should be defined for the text block and by clicking the “Change text block” button afterwards.
+A text block can be defined by highlighting text in the Rich Text Editor, clicking the ?New text block? button afterwards and setting a name in the appearing popup dialog. The extent of an existing text block can be changed by first selecting the regarding text block from the menu on the left, then highlighting the text area which should be defined for the text block and by clicking the ?Change text block? button afterwards.
 
-A distant text part can be added to an existing text block without changing the existing text parts, by highlighting the text which should be added an by then clicking the “Add to the text block” button.
+A distant text part can be added to an existing text block without changing the existing text parts, by highlighting the text which should be added an by then clicking the ?Add to the text block? button.
 
 The following tool bar is available for the management of text blocks:
 
 ![](images/media/image345.png)
 
-The first button “New text block” creates a new text blocks. A unique name has to be specified. This button is context sensitive and only active when some text is selected. The “Delete” button allows deleting a text block (with all its text fragments) or only an individual text block fragment, depending of the selected element in the text block tree structure. This button is context sensitive and only active when some text block or text block fragment is selected in the text block list.
+The first button ?New text block? creates a new text blocks. A unique name has to be specified. This button is context sensitive and only active when some text is selected. The ?Delete? button allows deleting a text block (with all its text fragments) or only an individual text block fragment, depending of the selected element in the text block tree structure. This button is context sensitive and only active when some text block or text block fragment is selected in the text block list.
 
-The third button “Change text block” is used to modify a text block. It is active when a text block is selected in the text block list and a selection is made in the text. When pressed the complete text block is replaced with the new selected text.
+The third button ?Change text block? is used to modify a text block. It is active when a text block is selected in the text block list and a selection is made in the text. When pressed the complete text block is replaced with the new selected text.
 
-The fourth button “Add to text block” is used to add a new text block fragment to an existing text block. It is active when a text block is selected in the text block list and a text is selected. When presses the selected text block fragment will be added to the current text block.
+The fourth button ?Add to text block? is used to add a new text block fragment to an existing text block. It is active when a text block is selected in the text block list and a text is selected. When presses the selected text block fragment will be added to the current text block.
 
-The last button “Refresh” is used to refresh the text block list (and tree structure) after text has been changed in the Rich Text Editor which might implicitly delete or modify text block fragments or complete text blocks.
+The last button ?Refresh? is used to refresh the text block list (and tree structure) after text has been changed in the Rich Text Editor which might implicitly delete or modify text block fragments or complete text blocks.
 
 *The following Example shows the definition of Text Blocks for the Minimum and Maximim Correct Response and for the Miss Area: *
 
 Question: What is the latest time that children should arrive at preschool?
 
-Minimum: “9”
+Minimum: ?9?
 
-Maximum: “Please have your child here by 9:00 am.”
+Maximum: ?Please have your child here by 9:00 am.?
 
 To score the highlighted text response to this question at runtime, text blocks have to be defined. The picture shows the definition of the Minimum Correct Response (Text Block T1):
 
@@ -971,7 +971,7 @@ To score the highlighted text response to this question at runtime, text blocks 
 
 The following two pictures show the definition of the complement of the maximum correct response, i.e., the miss area.
 
-In the example, it was not possible to create one text block for the miss area using the “Add to the Text Block”-function, because the first paragraph and the bullet points are in two different TextFields.
+In the example, it was not possible to create one text block for the miss area using the ?Add to the Text Block?-function, because the first paragraph and the bullet points are in two different TextFields.
 
 This picture shows the first part of the Miss Area (Text Block T2):
 
@@ -983,15 +983,15 @@ This picture shows the second part of the miss area (Text Block T3):
 
 Once the text blocks are defined, the Scoring Rule can be entered into the CBA Item Builder stimulus.
 
-First, a Task needs to be created in the Task view menu (Project/Browse Tasks) by clicking the “New”-button and setting a Task name. The amount of minimum hits is always 1 (as only one hit condition should be defined). Every question is one task. For each task, a starting page will have to be defined. Click the “Tasks Start Page” column and select the page from the appearing drop down menu. You can choose all pages which also appear under Project View.
+First, a Task needs to be created in the Task view menu (Project/Browse Tasks) by clicking the ?New?-button and setting a Task name. The amount of minimum hits is always 1 (as only one hit condition should be defined). Every question is one task. For each task, a starting page will have to be defined. Click the ?Tasks Start Page? column and select the page from the appearing drop down menu. You can choose all pages which also appear under Project View.
 
-For each task hits and misses have to be added. To define a hit condition first select the according task from the tasks table, then click the “Add Hit”-button. The hits table relative to the selected task is now active and name and weight have to be set. Then click the “Open”-button right to the hits table. A condition tab will open where the hit Condition is defined, e.g., complete (T1). Here, the hit condition “complete (T1)” means that a correct sore requires the complete selection of text block T1 “9”.
+For each task hits and misses have to be added. To define a hit condition first select the according task from the tasks table, then click the ?Add Hit?-button. The hits table relative to the selected task is now active and name and weight have to be set. Then click the ?Open?-button right to the hits table. A condition tab will open where the hit Condition is defined, e.g., complete (T1). Here, the hit condition ?complete (T1)? means that a correct sore requires the complete selection of text block T1 ?9?.
 
 This picture shows the definition of the hit condition:
 
 > ![](images/media/image349.png)
 >
-> Thereafter the miss condition is defined by opening and editing the condition tab for the misses, e.g., “partial” (T2, T3). Here, the miss condition “partial (T2, T3)” means that a response is scored as incorrectly if parts of T2 and/or T3 are selected.
+> Thereafter the miss condition is defined by opening and editing the condition tab for the misses, e.g., ?partial? (T2, T3). Here, the miss condition ?partial (T2, T3)? means that a response is scored as incorrectly if parts of T2 and/or T3 are selected.
 
 This picture shows the definition of the miss condition:
 
@@ -1010,21 +1010,21 @@ This picture shows the definition of the miss condition:
 
 -   Start with a prepared simple page (see III.1.1.1).
 
--   Switch to the FSM and create a variable named “V\_Example” (see II.5.1.1).
+-   Switch to the FSM and create a variable named ?V\_Example? (see II.5.1.1).
 
 -   Save the project in order to ensure the FSM variables are available in the page editor.
 
--   Add a ScaleValueInput to the panel and assign the variable “V\_Example” (right-click on the ScaleValueInput, select the entry “Link Variable” and select the variable “V\_Example”).
+-   Add a ScaleValueInput to the panel and assign the variable ?V\_Example? (right-click on the ScaleValueInput, select the entry ?Link Variable? and select the variable ?V\_Example?).
 
--   Open the “Resource Browser” and add the images 1.fw.png, 2.fw.png, 3.fw.png and 4.fw.png from the Folder “ValueDisplayExampleSimple”.
+-   Open the ?Resource Browser? and add the images 1.fw.png, 2.fw.png, 3.fw.png and 4.fw.png from the Folder ?ValueDisplayExampleSimple?.
 
--   Open the “Value Map” editor and create a new value map named “M\_Example” (see 5.1.4).
+-   Open the ?Value Map? editor and create a new value map named ?M\_Example? (see 5.1.4).
 
 -   Add new entries assigning the guard value 1 to the image 1.fw.png, the value 2 to the image 2.fw.png and proceed similar for the values 3 and 4.
 
--   Add an ImageValueDisplay to the panel and assign the variable “V\_Example” (see above) as well as the value map “M\_Example” (right-click on the ImageValueDisplay again, select the entry “Link Value Map”).
+-   Add an ImageValueDisplay to the panel and assign the variable ?V\_Example? (see above) as well as the value map ?M\_Example? (right-click on the ImageValueDisplay again, select the entry ?Link Value Map?).
 
--   Link the value map “M\_Example” in the same way to the ScaleValueInput.
+-   Link the value map ?M\_Example? in the same way to the ScaleValueInput.
 
 **IB Example:** ValueDisplayExampleSimple.zip
 
@@ -1033,7 +1033,7 @@ This picture shows the definition of the miss condition:
 | ![](images/media/image351.png)                                                              |
 | <span id="_Toc380473123" class="anchor"></span>Figure 162. Example for an ImageValueDisplay |
 
-<span id="_Ref368782019" class="anchor"><span id="_Ref368782024" class="anchor"><span id="_Ref370128296" class="anchor"><span id="_Ref370128307" class="anchor"><span id="_Toc380472956" class="anchor"></span></span></span></span></span>Things you might need to know …
+<span id="_Ref368782019" class="anchor"><span id="_Ref368782024" class="anchor"><span id="_Ref370128296" class="anchor"><span id="_Ref370128307" class="anchor"><span id="_Toc380472956" class="anchor"></span></span></span></span></span>Things you might need to know ?
 ==========================================================================================================================================================================================================================================================================
 
 Version 4-16
@@ -1047,14 +1047,14 @@ Usability is not yet optimal:
 
 | **Problem**                                                                                         | **Workaround**                                                                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Preview a project, a page, or a task twice does not work.                                           | Only occurs if you have installed the IB under Windows 7 at drive C:\\ Use “Generate and save”, then you can open the preview again.                                                                                        |
+| Preview a project, a page, or a task twice does not work.                                           | Only occurs if you have installed the IB under Windows 7 at drive C:\\ Use ?Generate and save?, then you can open the preview again.                                                                                        |
 | Preview does not work (white screen).                                                               | Close the IB and re-start it.                                                                                                                                                                                               |
-| Preview does not work (Firefox is not opening).                                                     | Check if no any other preview is already open. If so, close it. Use “Generate and save”, then you can open the preview again.                                                                                               |
-| “Close Project” definitely closes your current project.                                             | The IB does not ask you if you really want to close your project. You should better always save your work in case you click “Close project” by accident.                                                                    |
+| Preview does not work (Firefox is not opening).                                                     | Check if no any other preview is already open. If so, close it. Use ?Generate and save?, then you can open the preview again.                                                                                               |
+| ?Close Project? definitely closes your current project.                                             | The IB does not ask you if you really want to close your project. You should better always save your work in case you click ?Close project? by accident.                                                                    |
 | User-defined IDs should be used for each element.                                                   | IB generated IDs are just temporary and change every time you save your project (see II.3.2.3).                                                                                                                             |
 | You cannot drop elements from the palette.                                                          | You always have to create a container (i.e., normally a frame and panel) at first.                                                                                                                                          |
 | You cannot duplicate some elements.                                                                 | Sorry, it is not always working. Try using the template function (see II.3.6).                                                                                                                                              |
-| The clipboard in the graphical is not implemented.                                                  | Menu entries in the menu “Edit” (i.e., Cut, Paste and Copy) are always disabled.                                                                                                                                            |
+| The clipboard in the graphical is not implemented.                                                  | Menu entries in the menu ?Edit? (i.e., Cut, Paste and Copy) are always disabled.                                                                                                                                            |
 | Missing some fonts. / Too many fonts.                                                               | List of fonts depends on the fonts installed on your system, i.e., the list might be rather long and you cannot type into the dialog elements to change the font.                                                           |
 | Appearance tab in the properties is not displayed.                                                  | It might occur when you create an element (e.g., a frame) at first. Click at another element or into the undefined drawing area to deselect your newly created element and then re-click on it. Appearance tab now appears. |
 | Regular buttons are not visible in web browser toolbars.                                            | Regular buttons in web browser toolbars need to have an activated image status. Define buttons as image buttons and link an image as activated image.                                                                       |
@@ -1063,7 +1063,7 @@ Usability is not yet optimal:
 | Removal of tree column does not work.                                                               | Create a new tree view or set the width of the column to 0. Columns apply to both tree and tree view. To hide the tree it must have the same width.                                                                         |
 | The line width in rectangles does not change in the Drawing Area.                                   | It is correctly displayed at runtime.                                                                                                                                                                                       |
 | The Properties View seems to be frozen. It hangs for a selected element.                            | In that case close the page and re-open it again.                                                                                                                                                                           |
-| Some menu items are missing in the Component View.                                                  | Create a new MenuItem in the Component View and delete it afterwards. This “repairs” the broken menu items.                                                                                                                 |
+| Some menu items are missing in the Component View.                                                  | Create a new MenuItem in the Component View and delete it afterwards. This ?repairs? the broken menu items.                                                                                                                 |
 | Parallel assignment of FSM events with commands or (conditional) links to an element does not work. | Define an additional page and use a regular link for the assignment of the command or conditional link, respectively.                                                                                                       |
 | Conditional links coming from taskbar pages with start buttons does not work.                       | Re-define the taskbar start button as regular taskbar button.                                                                                                                                                               |
 | The page links for Image Maps, Image Areas and Image Text Fields do not work.                       | Try to use another element for linking.                                                                                                                                                                                     |
@@ -1078,7 +1078,7 @@ The IB is always good for a surprise:
 
 | **Element**                                   | **Workaround**                                                                                                                                                                       |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Change properties for a selection of objects… | … works for background color.                                                                                                                                                        |
+| Change properties for a selection of objects? | ? works for background color.                                                                                                                                                        |
 | TAO Integration                               | The current official release of TAO (Version 2.5) does not contain the appropriate connector for CBA-ItemBuilder items. For an intermediate version please contact <roelke@dipf.de>. |
 
 Things That Do Not Work
@@ -1088,7 +1088,7 @@ Things That Do Not Work
 
 | **Element**                          | **Functioning**                                                                                                   |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| “Arrange Selection” in the menu bar… | … re-arranges all (or the selected) elements. However, this will rarely be a useful feature when designing items. |
+| ?Arrange Selection? in the menu bar? | ? re-arranges all (or the selected) elements. However, this will rarely be a useful feature when designing items. |
 
 List of Figures
 ===============
@@ -1125,7 +1125,7 @@ List of Figures
 
 [Figure 16. Setup wizard for the IB 14](#_Toc380472977)
 
-[Figure 17. Start the IB by (double-)clicking on „cba-itembuilder.exe“ 15](#_Toc380472978)
+[Figure 17. Start the IB by (double-)clicking on ?cba-itembuilder.exe? 15](#_Toc380472978)
 
 [Figure 18. How to create a Shortcut on the Desktop 15](#_Toc380472979)
 
@@ -1167,11 +1167,11 @@ List of Figures
 
 [Figure 37. Settings for Properties View 28](#_Toc380472998)
 
-[Figure 38. “Rulers & Grid” for the IB drawing area 28](#_Toc380472999)
+[Figure 38. ?Rulers & Grid? for the IB drawing area 28](#_Toc380472999)
 
-[Figure 39. “Snap to Grid” and “Snap to Shape” 29](#_Toc380473000)
+[Figure 39. ?Snap to Grid? and ?Snap to Shape? 29](#_Toc380473000)
 
-[Figure 40. Preference Settings for “Rulers & Grid” for the IB Drawing Area 29](#_Toc380473001)
+[Figure 40. Preference Settings for ?Rulers & Grid? for the IB Drawing Area 29](#_Toc380473001)
 
 [Figure 41. Frame and Panel in the Drawing Area of the IB 32](#_Toc380473002)
 
@@ -1319,7 +1319,7 @@ List of Figures
 
 [Figure 113. Assigning Commands 93](#_Toc380473074)
 
-[Figure 114. Regular Expression in the Property “Input Validation Pattern” 96](#_Toc380473075)
+[Figure 114. Regular Expression in the Property ?Input Validation Pattern? 96](#_Toc380473075)
 
 [Figure 115. Scoring Regular Expressions 98](#_Toc380473076)
 
@@ -1417,31 +1417,6 @@ List of Figures
 
 [Figure 162. Example for an ImageValueDisplay 159](#_Toc380473123)
 
-Acknowledgements
-================
-
-* Sylvia Krueger
-* Florian Remmers
-* Corinna Dziudzia
-* Gabriele Gissler
-* Britta Upsing
-
-References
-==========
-
-(To be continued)
-
-Bugbee, A. C. (1996). The Equivalence of Paper-and-Pencil and Conputer-Based Testing. *Journal of Research on Computing in Education, 28* (3), 282-299.
-
-Clariana, R., & Wallace, P. (2002). Paper-based versus computer based assessment: key factors associated with the test mode effect. *British Journal of Educational Technology, 33* (5), 593-602.
-
-Goldhammer, F., Naumann, J., & Keßel, Y. (2013). Assessing Individual Differences in Basic Computer Skills. Psychometric Characteristics of an Interactive Performance Measure. European Journal of Psychological Assessment. DOI: 10.1027/1015-5759/a000153.
-
-Mason, B- J., Patry, M., & Bernstein, D. J. (2001). An examination oft he equivalence between non-adaptive computer based and traditional testing. *Journal of Educational Computing Research, 24* (1), 29-39.
-
-National Center for Education Statistics [NCES] (2013). *Program for International Assessment of Adult Competencies (PIAAC). Literacy – Sample Item 1.* URL: <http://nces.ed.gov/surveys/piaac/figures/sample_lit1.asp>
-
-OECD (2011). *PISA 2009 Results: Students on Line: Digital Technologies and Performance* (Volume VI). URL
 
 
 
