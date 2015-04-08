@@ -1,173 +1,15 @@
-Authors
-* Ulf Kroehne
-* Carolin Hahnel
-
-Acknowledgements
-* Sylvia Krueger
-* Florian Remmers
-* Corinna Dziudzia
-* Gabriele Gissler
-* Britta Upsing
-
-Contents
-
-[How to use this manual iv](#_Toc380472884)
-
-[Part I: IB at a Glance 1](#ib-at-a-glance)
-
-[I.1 Introduction 1](#introduction)
-
-[I.1.1 Why an Item Authoring Tool? 1](#_Toc380472887)
-
-[I.1.2 Benefits using an Item Authoring Tool 1](#benefits-using-an-item-authoring-tool)
-
-[I.1.3 Test Deployment and Navigation 2](#_Toc380472889)
-
-[I.1.4 Glossary 3](#_Toc380472890)
-
-[I.2 Real Life Examples 4](#_Toc380472891)
-
-[I.2.1 Click Responses 5](#_Toc380472892)
-
-[I.2.2 Text entries 8](#text-entries)
-
-[I.2.3 Advance Response Formats 9](#advance-response-formats)
-
-[I.2.4 Multi-Page Questionnaires 11](#multi-page-questionnaires)
-
-[I.3 Contact, Support, and Technical Details 12](#_Toc380472896)
-
-[I.3.1 Technical Information for Delivery 12](#_Toc380472897)
-
-[I.3.2 Terms of License 12](#_Toc380472898)
-
-[Part II: User Guide 13](#_Toc380472899)
-
-[II.1 Installation 13](#_Toc380472900)
-
-[II.1.1 System Requirements 13](#system-requirements)
-
-[II.1.2 Setup Wizard 13](#setup-wizard)
-
-[II.1.3 Manual Installation (X-Copy Deployment) 14](#_Toc380472903)
-
-[II.1.4 Deinstallation 15](#_Toc380472904)
-
-[II.1.5 Migrating Projects 16](#_Toc380472905)
-
-[II.2 First Start of the IB 16](#_Toc380472906)
-
-[II.2.1 Start an Instance 17](#_Toc380472907)
-
-[II.2.2 Open, Preview, Save and Close Projects 17](#_Toc380472908)
-
-[II.2.3 Graphical User Interface 21](#_Toc380472909)
-
-[II.3 Generate Items with the IB 30](#_Toc380472910)
-
-[II.3.1 Basics of IB Item Design 30](#_Toc380472911)
-
-[II.3.2 Use of Additional Syntax 35](#_Toc380472912)
-
-[II.3.3 Resources 36](#_Toc380472913)
-
-[II.3.4 Design a Page 38](#_Toc380472914)
-
-[II.3.5 Use Multiple Pages 46](#_Toc380472915)
-
-[II.3.6 Templates 50](#_Toc380472916)
-
-[II.3.7 General Remarks on the Item-Design-Workflow 55](#_Toc380472917)
-
-[II.4 Scoring 56](#_Toc380472918)
-
-[II.4.1 The Task Editor 56](#_Toc380472919)
-
-[II.4.2 Scoring an Item 57](#_Toc380472920)
-
-[II.4.3 Conditional Literals and Conditional Operators 63](#conditional-literals-and-conditional-operators)
-
-[II.4.4 Examples 65](#_Toc380472922)
-
-[II.4.5 Checking Scoring Implementation 69](#_Toc380472923)
-
-[II.5 Finite State Machines (FSM) 70](#_Toc380472924)
-
-[II.5.1 Variables 70](#_Toc380472925)
-
-[II.5.2 Events 77](#_Toc380472926)
-
-[II.5.3 States 78](#_Toc380472927)
-
-[II.5.4 Rules 81](#_Toc380472928)
-
-[II.5.5 Graphical FSM Editor 85](#_Toc380472929)
-
-[II.5.6 Examples 86](#_Toc380472930)
-
-[II.6 Advanced Functions 93](#_Toc380472931)
-
-[II.6.1 Commands 93](#_Toc380472932)
-
-[II.6.2 Regular Expressions 94](#_Toc380472933)
-
-[II.6.3 Dynamic Text in HTMLTextFields 98](#_Toc380472934)
-
-[II.6.4 Conditional Linking and Task Initializing 100](#_Toc380472935)
-
-[II.6.5 Item Translation (OLT) 109](#_Toc380472936)
-
-[Part III: Cookbook 110](#_Toc380472937)
-
-[III.1 Project Structure 110](#_Toc380472938)
-
-[III.1.1 Simple Pages 110](#simple-pages)
-
-[III.1.2 Navigation between Pages and Page Selection 113](#navigation-between-pages-and-page-selection)
-
-[III.1.3 X-Pages 120](#_Toc380472941)
-
-[III.1.4 Web Browser and Web Child Pages 125](#_Toc380472942)
-
-[III.1.5 Tabfolder Page 129](#tabfolder-page)
-
-[III.1.6 Taskbar Page 130](#_Toc380472944)
-
-[III.1.7 Dialogs and Modal Dialogs 131](#_Toc380472945)
-
-[III.2 Use Specific Response Elements 134](#_Toc380472946)
-
-[III.2.1 CheckBox 134](#checkbox)
-
-[III.2.2 Radio Buttons 135](#radio-buttons-1)
-
-[III.2.3 Input Fields 136](#_Toc380472949)
-
-[III.2.4 Combo Box and Lists 137](#_Toc380472950)
-
-[III.2.5 Menu 143](#menu)
-
-[III.2.6 Image Map 146](#_Toc380472952)
-
-[III.2.7 Highlighting 154](#_Toc380472953)
-
-[III.3 Using Dynamic Functions 159](#_Toc380472954)
-
-[III.3.1 Value Displays 159](#value-displays)
-
-[Part IV: Things you might need to know … 160](#_Toc380472956)
-
-[IV.1 Things of Suboptimal Usability 160](#things-of-suboptimal-usability)
-
-[IV.2 Things You Might Not Expect to Work but Actually Do 161](#things-you-might-not-expect-to-work-but-actually-do)
-
-[IV.3 Things That Do Not Work 162](#things-that-do-not-work)
-
-[List of Figures 163](#list-of-figures)
-
-[References 167](#references)
-
-<span id="_Ref361425403" class="anchor"><span id="_Ref352174845" class="anchor"></span></span>
+---
+title:       "CBA ItemBuilder Manual, Community Edition "
+author:      "Ulf Kroehne, Carolin Hahnel & Marisa Herrmann"
+date:        "Wednesday, April 08, 2015"
+affiliation: "German Institute for International Educational Research (DIPF), Frankfurt am Main"
+web:         "http://www.dipf.de"
+output: word_document
+---
+
+
+How to use this manual
+======================
 
 The present manual seeks to help test and item authors to understand the general concept of the software *CBA ItemBuilder* (IB), i.e., which components, functionalities and features are included, and how to use them.
 
@@ -3998,6 +3840,15 @@ List of Figures
 [Figure 161. Comparison between ComboBox and List 143](#_Toc380473122)
 
 [Figure 162. Example for an ImageValueDisplay 159](#_Toc380473123)
+
+Acknowledgements
+================
+
+* Sylvia Krueger
+* Florian Remmers
+* Corinna Dziudzia
+* Gabriele Gissler
+* Britta Upsing
 
 References
 ==========
