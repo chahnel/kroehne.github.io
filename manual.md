@@ -1,20 +1,13 @@
-Version
-
-<span id="LastChange" class="anchor"><span id="IB" class="anchor"></span></span>IB CBA ItemBuilder
-
-<span id="Version" class="anchor"></span>05-00-00 Current version of IB
-
-2014/02/18 Last update of this document
+Authors
+* Ulf Kroehne
+* Carolin Hahnel
 
 Acknowledgements
-
-Sylvia Krüger
-
-Florian Remmers
-Corinna Dziudzia
-
-Gabriele Gissler
-Britta Upsing
+* Sylvia Krueger
+* Florian Remmers
+* Corinna Dziudzia
+* Gabriele Gissler
+* Britta Upsing
 
 Contents
 
