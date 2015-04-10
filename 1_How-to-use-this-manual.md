@@ -1,6 +1,3 @@
----
-output: html_document
----
 [Home](README.md) | [IB at a Glance](2_IB-at-a-Glance.md) | [User Guide](3_User-Guide.md) | [Cookbook](4_Cookbook.md)
 
 ---

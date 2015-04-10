@@ -125,8 +125,8 @@ Compared to check boxes, radio buttons are also used for selecting an element of
 |------------------------------|------------------------------|
 | ![](images/media/image5.png) | ![](images/media/image6.png) |
 
-| Figure Description: Examples of Multiple Choice with Radio Buttons (from Scalise, 2006, Figure 2 and Figure 4) |
-| Example Project: **FIXME** |
+Figure Description: Examples of Multiple Choice with Radio Buttons (from Scalise, 2006, Figure 2 and Figure 4)
+Example Project: **FIXME** 
 
 In the IB radio buttons are assigned to groups (so called radio-button-groups) to bundle radio buttons that belong together to one item. Within each radio-button-group only one element can be selected. Note that once a radio button of a group is selected, it is usually impossible to deselect it (see **FIXME**).
 

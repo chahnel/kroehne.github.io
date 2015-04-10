@@ -2,10 +2,10 @@
 
 ---
 
-<span id="_Ref370128360" class="anchor"><span id="_Toc380472937" class="anchor"></span></span>Cookbook 
-=======================================================================================================
+Cookbook 
+========
 
-In this third part of the manual (the ?Cookbook?), you will find different hands-on instructions for implementing certain features as well as several IB example projects illustrating specific options and settings. Single instructions focus on how to build a specific feature or to implement a specific functionality, and should help you to get an easy start with the IB. Note that the main focus is on implementation. For information on basic principles or functioning of elements see the User?s Guide part before (see Part II: User Guide).
+In this third part of the manual (the "Cookbook"), you will find different hands-on instructions for implementing certain features as well as several IB example projects illustrating specific options and settings. Single instructions focus on how to build a specific feature or to implement a specific functionality, and should help you to get an easy start with the IB. Note that the main focus is on implementation. For information on basic principles or functioning of elements see the User's Guide part before (see Part II: User Guide).
 
 This part is organized as follows: You will find some recipes dealing with different features of specific page types as well as with the navigation between pages in the fist section III.1. The second section will focus on specific response elements and on examples of how to use them to let test takers solve certain tasks (see III.2). The third section will be about the usage of different FSM-related features (see III.3) and the fourth section will deal with multimedia elements (see **Fehler! Verweisquelle konnte nicht gefunden werden.**).
 
